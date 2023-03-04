@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 15</title>
+</head>
+<body>
+    <fieldset style="width: 50%;">
+        <legend>Your message:</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo">To</label></td>
+                <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe"></td>
+            </tr>
+
+            <tr>
+                <td><label for="emailFrom">Your email</label></td>
+                <td><input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250"></td>
+            </tr>
+
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody" id="emailBody" cols="70" rows="13"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset style="width: 63.9%;">
+        <legend>How you found us:</legend>
+        <table>
+            <tr>
+                <td><label for="findGoogle">How did you hear of us</label></td>
+                <td>
+                    <select name="findGoogle" id="findGoogle" style="width: 120px;">
+                        <option value="Google">Google</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="Newsletter">Newsletter</label></td>
+                <td><input type="checkbox"><label for="Newsletter">Ensure this box is checked if you would like to receive email updates</label></td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="submit" value="Send message">
+    <br>
+    <hr>
+    <br>
+
+    <fieldset style="width: 63.9%;">
+        <legend>Contact Information</legend>
+        <table>
+            <tr>
+                <td><label for="firtname">First name:</label></td>
+                <td><input type="text" name="txtFirstName" id="firtname"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="lastname">Last name:</label></td>
+                <td><input type="text" name="txtLastName" id="lastname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="text" name="txtEmail" id="email"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset style="width: 63.9%;">
+        <legend>Conpetition Question</legend>
+        <table>
+            <tr>
+                <td><label for="Question">How tall is the Eiffel Tower in Paris, France?</label></td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <input type="radio" name="radio1" id="ft">
+                    <label for="question1">584 ft</label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <input type="radio" name="radio2" id="ft">
+                    <label for="question2">784 ft</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio" name="radio3" id="ft">
+                    <label for="question3">984 ft</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="radio" name="radio4" id="ft">
+                    <label for="question4">1184 ft</label>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset style="width: 63.9%;">
+        <legend>Tiebreaker Question</legend>
+        <table>
+            <tr><label for="tilde">In 25 words or less, say why you would like to win $10,000</label></tr>
+            <tr>
+                <td><textarea name="Tiebreaker" id="title" cols="40%" rows="10"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Enter competition</legend>
+        <input type="submit" value="Enter Competition">
+    </fieldset>
+
+
+</body>
+</html>
