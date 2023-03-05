@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 17</title>
+    <style>
+        body{
+            background-color: goldenrod;
+            width: 69%;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Survey Form</h2>
+    <p>If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optional, and all information will be kept strictly confidential. Thank you very much for your time!</p>
+    <table>
+        <tr>
+            <td>
+                <label for="yourname"> 1. What is your name?</label><br>
+                <input type="text" name="textName" id="yourname" style="width: 250px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+                <label for="dateofbirth">2. What is your date of birth?</label><br>
+                <label for="Month">Month:</label>
+                <select name="Month" id="dateofbirth" style="width: 100px;">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <label for="Date">Date:</label>
+                <select name="Date" id="dateofbirth">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <label for="Year">Year:</label>
+                <input type="text" name="txtYear" id="dateofbirth" style="width: 50px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+                <label for="address">3. What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?</label><br>
+                <textarea name="txtAddress" id="address" cols="30" rows="10" placeholder="Number/P.O. Box/Route: &#13;Street/Avenue/Road: &#13;City: &#13;State/Zip:" style="width: 400px; height: 70px;"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+                <label for="email">4. What is youre email address?</label><br>
+                <input type="text" name="txtEmail" id="email" style="width: 270px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+                <label for="radio">5. Have you viewed our online product catalog?</label><br>
+                <input type="radio">
+                <label for="radioYes">Yes</label>
+                <input type="radio">
+                <label for="radioNo">No</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+                <label for="checkbox">6. If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the futere? (Check all that apply.)</label><br>
+                <input type="checkbox">
+                <label for="cbVCR">VCR</label><br>
+                <input type="checkbox">
+                <label for="cbBigSTV">Big Screen TV</label><br>
+                <input type="checkbox">
+                <label for="cbAE">Audio Equiment</label><br>
+                <input type="checkbox">
+                <label for="cbVE">Video Equiment</label><br>
+                <input type="checkbox">
+                <label for="cbCE">Camera Equiment</label><br>
+                <input type="checkbox">
+                <label for="cbOther">Other</label>
+                <input type="text" placeholder="Please List">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+                <label for="Last">7. Do you have any questions, comments or suggestions before proceeding to the Order Form?</label><br>
+                <textarea name="txtinput" id="Last" cols="30" rows="10" style="width: 400px; height: 90px;" placeholder="Your Input:"></textarea>
+            </td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td>
+                <br>
+                <input type="submit" value="Send Form" style="display: inline-block; margin-right: 20px;">
+                <input type="submit" value="Clear Form" style="display: inline-block;">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
