@@ -1,0 +1,196 @@
+#menu_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu_left {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner {
+    margin-top: 20px;
+    background-image: url(img/banner.png);
+    background-size: cover;
+    text-align: left;
+    padding: 200px;
+}
+
+#button {
+    background-color: rgb(94, 173, 104);
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 16px;
+}
+
+#products {
+    text-align: center;
+    font-size: 30px;
+}
+
+#button1 {
+    background-color: rgb(94, 173, 104);
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 150px;
+    font-size: 16px;
+}
+
+#button2 {
+    background-color: aliceblue;
+    color: rgb(94, 173, 104);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 150px;
+    font-size: 16px;
+}
+
+#best_seller {
+    background-image: url(img/Image\ 1.png);
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image_row {
+    width: 22%;
+}
+
+.image_row img {
+    max-width: 100%;
+    height: auto;
+    margin: 30px;
+}
+
+.image_row p {
+    display: flex;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#E_center{
+    text-align: center;
+    flex-grow: 1;
+    font-size: 30px;
+}
+
+#E_right{
+    text-align: right;
+    color: rgb(94, 173, 104);
+}
+
+#E_promotion{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+#E_promotion_img1{
+    background-image: url(img/Image\ 1\ \(4\).png);
+    background-size: cover;
+    padding: 150px 200px;
+    margin-left: 180px;
+    text-align: left;
+}
+
+#E_promotion_img2{
+    background-image: url(img/Image\ 1\ \(5\).png);
+    background-size: cover;
+    padding: 150px 200px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.explore{
+    background-color: rgb(94, 173, 104);
+    color: aliceblue;
+    border: none;
+    height: 43px;
+    border-radius: 4px;
+    width: 150px;
+    font-size: 16px;
+}
+
+#end{
+    margin-top: 120px;
+    background-color: #363636;
+    padding: 150px;
+    display: flex;
+}
+
+#about{
+    color: aliceblue;
+    
+}
+
+ul {
+    list-style-type: none; /* ẩn kí tự đầu dòng của danh sách */
+    padding: 0; /* bỏ khoảng cách padding của danh sách */
+    margin-bottom: 20px; /* bỏ khoảng cách margin của danh sách */
+    
+}
+  
+li {
+    display: block; /* Hiển thị mỗi mục danh sách trên một dòng */
+    margin-bottom: 15px;
+}
+
+#select{
+    background-color: #363636;
+    color: aliceblue;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#help{
+    color: aliceblue;
+    margin-left: 50px;
+}
+
+#contact{
+    color: aliceblue;
+    margin-left: 50px;
+}
+  
+#end_right{
+    color: aliceblue;
+    margin-left: 500px;
+}
+
+#icon_end{
+    margin-top: 20px;
+}
