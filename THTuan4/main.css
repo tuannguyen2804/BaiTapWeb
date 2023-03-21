@@ -1,0 +1,263 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+#center {
+    width: 910px;
+}
+
+#right {
+    width: 440px;
+    margin-left: 10px;
+    border-left: 1px solid bisque;
+    
+}
+
+#left {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid bisque;
+    margin-right: 10px;
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 32px;
+    margin-top: 50px;
+}
+
+#setting {
+    margin-top: 36px;
+}
+
+#title_center {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#time {
+    margin-top: 20px;
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+}
+
+#TT01 {
+    display: flex;
+}
+
+#BT01 {
+    background-color: #FF99CC;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 3px;
+    border-radius: 30px;
+    width: 80px;
+    height: 25px;
+}
+
+#IMG01 {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(img/img_big.png);
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 450px;
+}
+
+.BTIMG01 {
+    background-color: gray;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 35px;
+    color: honeydew;
+}
+
+#IMG01_1 {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#IMG02 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#IMG02_1 {
+    background-image: url(img/img2.png);
+    background-size: cover;
+    width: 280px;
+    height: 170px;
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#IMG02_2{
+    background-image: url(img/img1.png);
+    background-size: cover;
+    width: 280px;
+    height: 170px;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#IMG02_3{
+    background-image: url(img/img.png);
+    background-size: cover;
+    width: 280px;
+    height: 170px;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: -4px;
+}
+
+#control{
+    display: flex;
+    margin-left: 195px;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+#control > * {
+    margin-right: 10px; /* Khoảng cách giữa các control là 20px */
+}
+  
+#control > *:last-child {
+    margin-right: 0; /* Loại bỏ margin của control cuối cùng */
+}
+  
+
+#cl_bt{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 46px;
+}
+
+#right{
+    margin-left: 30px;
+}
+
+#r_title{
+    display: flex;
+    margin-left: 20px;
+}
+
+#r_pp1{
+    display: flex;
+    margin-left: 20px;
+}
+
+#r_pp1_1{
+    margin-left: 140px;
+    margin-top: 17px;
+}
+
+#r_pp2{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+#r_pp1_2{
+    margin-left: 171px;
+    margin-top: 17px;
+}
+
+#r_pp3{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+#r_pp1_3{
+    margin-left: 180px;
+    margin-top: 17px;
+}
+
+#r_pp4{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+#r_pp1_4{
+    margin-left: 175px;
+    margin-top: 17px;
+}
+
+.chat_bt1{
+    width: 320px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+}
+
+#chat_bt2{
+    width: 80px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 106px;
+}
+
+#chat_bt3{
+    width: 80px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 106px;
+    color: grey;
+}
+
+#text_1{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: darkgray;
+    margin-left: 20px;
+    border-radius: 5px;
+}
