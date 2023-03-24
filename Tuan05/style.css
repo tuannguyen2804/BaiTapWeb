@@ -1,0 +1,304 @@
+#aa{
+    width: 100%;
+    height: 100%;
+}
+
+#South {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 1590px;
+}
+
+#S_01 {
+    margin-top: 4px;
+    margin-left: 20px;
+   
+}
+
+#S_02 {
+    margin-left: -470px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+
+#S_03 {
+    display: flex;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+
+#C_01 {
+    display: flex;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+#C_02 {
+    margin-left: 140px;
+    font-size: 40px;
+}
+
+#C_03 {
+    display: flex;
+    margin-left: 140px;
+}
+
+#C_03_1 {
+    display: flex;
+    margin-left: 892px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: max-content max-content ;
+    margin-left: 130px;
+    margin-right: 300px;
+}
+
+.grid-item {
+    padding: 15px;
+}
+
+.grid-item:nth-child(1) {
+    grid-row: 1 / span 2;
+    grid-column: 1;
+}
+
+.grid-item:nth-child(5) {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.grid-item:nth-child(6) {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+#C_04 {
+    display: flex;
+    align-items: center;
+    width: 1430px;
+}
+
+#C_04_Left {
+    float: left;
+    margin-left: 140px;
+    width: 765px;
+}
+
+#C_04_Right {
+    float: right;
+    border: 0.1px solid #DDDDDD;
+    margin-left: 122px;
+    width: 340px;
+    height: 390px;
+    border-radius: 5px;
+}
+
+.R_cl {
+    border: none;
+    background-color: #DDDDDD;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#button_r {
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: darkturquoise;
+    color: white;
+    margin-left: 20px;
+}
+
+#button_r2 {
+    margin-top: 15px;
+    border: 1px solid darkturquoise;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    color: darkturquoise;
+    margin-left: 20px;
+}
+
+#review{
+    width: 1430px;
+}
+
+#r_01{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+#r_02{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+.review_001{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.review_002{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.review_003{
+    margin-top: 5px;
+}
+
+.review_004{
+    display: block;
+    margin-left: 57px;
+    margin-top: -20px;
+}
+
+#r_south{
+    display: flex;
+}
+
+#r_02_1{
+    margin-right: 120px;
+}
+
+#r_north{
+    display: flex;
+    margin-top: 50px;
+}
+
+#r_02_3{
+    margin-right: 104px;
+}
+
+#product{
+    width: 80%;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+#product_sp{
+    display: flex;
+    margin-top: 30px;
+}
+
+#p_1{
+    display: flex;
+    justify-content: space-between; 
+    width: 1510px;
+}
+
+.sp_01{
+    display: flex;
+}
+
+.sp_01 h2{
+    margin-left: 20px;
+}
+
+.picture_sp{
+    width: 25px;
+    height: 25px;
+    margin-left: 90px;
+    margin-top: 21px;
+}
+
+.rating_sp{
+    display: flex;
+    margin-left: 20px;
+}
+
+.rating_sp img{
+    height: 17px;
+}
+
+.rating_sp p{
+    margin-left: 70px;
+    margin-top: 2px;
+    color: grey;
+    font-size: 13px;
+}
+
+.product_sp_1{
+    margin-right: 35px;
+    border: 1px solid #C0C0C0;
+}
+
+#north{
+    width: 1500;
+    margin-top: 70px;
+}
+
+#n_01{
+    margin-left: 550px;
+}
+
+#n_01 input{
+    width: 260px;
+    height: 30px;
+    border: none;
+    background-color: #DDDDDD;
+    border-radius: 5px;
+}
+
+#n_01 button{
+    width: 110px;
+    height: 30px;
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: -7px;
+}
+
+#tags{
+    display: flex;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+.tags_1{
+    margin-right: 150px;
+}
+
+#n_01{
+    width: 1300px;
+}
+
+#end{
+    width: 1700px;
+    margin-left: 138px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#end select{
+    width: 130px;
+    height: 35px;
+    border: none;
+    background-color: #DDDDDD;
+}
+
+#end p{
+    margin-top: 10px;
+    margin-left: -40px;
+    color: grey;
+}
+
+#pt_end{
+    margin-right: 540px;
+    margin-top: 5px;
+}
