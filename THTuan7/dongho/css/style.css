@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+
+.md{
+    text-align: center;
+    margin-top: 400px;
+    border: 5px solid white;
+}
+
+.md button{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: coral;
+    color: white;
+    font-size: larger;
+    border: 1px solid white;
+}
+
+#timer{
+    font-size: 100px;
+}
